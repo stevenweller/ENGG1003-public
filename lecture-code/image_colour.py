@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-# create a 3D numpy array, 20x20 RGB image
+# 3D numpy array for 20x20 image, each pixel [R,G,B]
 m = np.zeros([20, 20, 3], int)
 
 # purple cross on a red background
