@@ -1,4 +1,4 @@
-# standardnormaldemo
+# standard_normal_demo
 import numpy as np
 
 N = 1000000
