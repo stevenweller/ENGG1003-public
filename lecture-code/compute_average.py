@@ -1,4 +1,4 @@
-# computeaverage
+# compute_average
 import numpy as np
 import matplotlib.pyplot as plt
 
