@@ -5,7 +5,7 @@ import numpy as np
 m = np.zeros([20, 20, 3], int)
 
 # purple cross on a red background
-m[:, :] = [255, 0, 0]       # set all pixels red by default
+m[:, :] = [255, 0, 0]       # all pixels red by default
 m[8:12, :] = [65, 0, 125]   # rows 8-11 are purple
 m[:, 8:12] = [65, 0, 125]   # columns 8-11 are purple
 
