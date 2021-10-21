@@ -1,4 +1,4 @@
-# SDdemo
+# stddev_demo
 import numpy as np
 import matplotlib.pyplot as plt
 
