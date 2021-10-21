@@ -1,4 +1,4 @@
-# standardnormal
+# standard_normal_a_b
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -13,8 +13,8 @@ def trapezoidal(f, a, b, n):
         f_sum = f_sum + f(x)
     return h*(0.5*f(a) + f_sum + 0.5*f(b))
 
-a = -4
-b = 4
+a = 1
+b = 2
 prob_ab = trapezoidal(f, a, b, 100)
 print('Probability X in range [{},{}] is: {:.4f}'.format(a, b, prob_ab))
 
