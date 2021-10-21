@@ -1,7 +1,7 @@
 N = 20
 
-i = 1
 sumN = 0
+i = 1
 while i <= N:
     print(i)
     sumN += i**2
