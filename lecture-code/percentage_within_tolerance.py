@@ -12,4 +12,5 @@ for i in range(0, N):
     if tolLow <= x[i] <= tolHigh:
         goodCnt += 1
 
-print('Percentage of parts in tolerance range [{},{}]: {}%'.format(tolLow, tolHigh, 100*goodCnt/N))
+print('Percentage of parts in tolerance range [{},{}]: {}%'
+      .format(tolLow, tolHigh, 100*goodCnt/N))
