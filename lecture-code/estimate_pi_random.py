@@ -17,6 +17,5 @@ for i in range(0, N):
 
 R = insideCnt/N
 print('Estimate of pi: {}'.format(4*R))
-
 plt.axis('equal')
 plt.show()
