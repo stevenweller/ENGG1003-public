@@ -18,4 +18,4 @@ for i in range(0, N):
 
 decPercent = 100 * decCount/N
 print('{} out of {} regions have reduced rainfall, which is {:5.2f}%'
-      .format(N, decCount, decPercent))
+      .format(decCount, N, decPercent))
