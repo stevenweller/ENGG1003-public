@@ -17,5 +17,5 @@ for i in range(0, N):
         decCount += 1
 
 decPercent = 100 * decCount/N
-print('Out of {} regions, {} have reduced rainfall which is {:5.2f}%'
+print('{} out of {} regions have reduced rainfall, which is {:5.2f}%'
       .format(N, decCount, decPercent))
