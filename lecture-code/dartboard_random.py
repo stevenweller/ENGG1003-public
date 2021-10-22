@@ -9,8 +9,10 @@ y = np.random.uniform(-1, 1, N)   # N floats from [-1,1)
 
 for i in range(0, N):
     if x[i]**2 + y[i]**2 <= 1:
+        # random point inside unit circle - red dot
         plt.plot(x[i], y[i], 'r.')
     else:
+        # random point outside unit circle - blue dot
         plt.plot(x[i], y[i], 'b.')
 
 plt.axis('equal')   # plot with aspect ratio 1:1
