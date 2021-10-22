@@ -10,7 +10,7 @@ rainfall2020 = rainfallData['Rainfall 2020'].values
 
 N = len(rainfall2010)       # total number of regions
 
-# count regions where rainfall has decreased between 2010 and 2020
+# count regions where rainfall has decreased from 2010 to 2020
 decCount = 0
 for i in range(0, N):
     if rainfall2020[i] < rainfall2010[i]:
