@@ -1,7 +1,7 @@
 import pandas as pd
 
 # read rainfall data from spreadsheet
-rainfallData = pd.read_csv("Rainfall.csv")
+rainfallData = pd.read_csv("rainfall.csv")
 print(rainfallData.head())
 
 # extract columns for years 2010 and 2020
