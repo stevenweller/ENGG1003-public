@@ -1,6 +1,6 @@
 import pandas as pd
 
-# read data from  & display first few rows
+# read data from CSV file & display first few rows
 mydata = pd.read_csv("tiny.csv")
 print(mydata.head())
 
