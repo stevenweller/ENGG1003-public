@@ -1,4 +1,5 @@
-# Program for computing the height of a ball in vertical motion
+# compute height of a ball in vertical motion
+# SRW, 3-Feb-2022
 
 v0 = 5             # Initial velocity
 g = 9.81           # Acceleration of gravity
