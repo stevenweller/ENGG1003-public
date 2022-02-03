@@ -1,4 +1,5 @@
 # compute height of a ball in vertical motion
+# LL text, Section 1.2.1
 # SRW, 3-Feb-2022
 
 v0 = 5      # initial velocity (m/s)
