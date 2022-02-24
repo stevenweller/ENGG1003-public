@@ -1,4 +1,4 @@
 import numpy
 
-x = numpy.exp([0, 1, 2])
+x = numpy.exp(1)
 print(x)
