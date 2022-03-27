@@ -1,8 +1,10 @@
 import pandas as pd
 
-# read data from CSV file & display first few rows
+# read data from CSV file
 mydata = pd.read_csv("tiny.csv")
-print(mydata.head())
+
+# display first few rows
+print(mydata.head())    # n=5 by default
 
 # extract columns with username and student ID
 username = mydata['Username'].values
