@@ -1,10 +1,7 @@
 import numpy as np
 
 def f(x):
-    return np.exp(x) - 3
-
-# def f(x):
-#     return 3*x + np.sin(x) - np.exp(x)
+    return np.exp(x) - 3*x
 
 eps = 1e-6
 xLO = 1
