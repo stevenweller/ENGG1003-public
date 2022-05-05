@@ -13,9 +13,9 @@ def simpson(f, a, b, n):
         summ += (f(xi) + 4*f((xi+xi+h)/2) + f(xi+h))*h/6
     return summ
 
-n = 100
+n = 4
 simp = simpson(v, 0, 1, n)
 exact = np.exp(1) - 1
 
-print('Simpson, {} sub-intervals: {:.8f}'.format(n,simp))
-print('Exact answer: {:.8f}'.format(exact))
+print("Simpsons rule, {} sub-intervals: {:.4f}".format(n,simp))
+print('Exact answer: {:.4f}'.format(exact))
