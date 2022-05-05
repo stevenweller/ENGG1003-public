@@ -11,9 +11,9 @@ def trapezoidal(f, a, b, n):
         f_sum = f_sum + f(x)
     return h*(0.5*f(a) + f_sum + 0.5*f(b))
 
-n = 100
+n = 4
 trap = trapezoidal(v, 0, 1, n)
 exact = np.exp(1) - 1
 
-print('Trapezoidal, {} sub-intervals: {:.8f}'.format(n,trap))
-print('Exact answer: {:.8f}'.format(exact))
+print('Trapezoidal method, {} sub-intervals: {:.4f}'.format(n, trap))
+print('Exact answer: {:.4f}'.format(exact))
