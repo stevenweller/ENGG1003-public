@@ -9,5 +9,5 @@ b = 1
 trap = integ.trapezoidal(v, a, b)
 print("Trapezoidal method: {:.5f}".format(trap))
 
-simp = integ.simpson(v, a, b)
-print("Trapezoidal method: {:.5f}".format(simp))
+S = integ.simpson(v, a, b)
+print("Simpsons rule: {:.5f}".format(S))
