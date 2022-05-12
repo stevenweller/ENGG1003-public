@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-from scipy.optimize import curve_fit
+import scipy.optimize as sco
 
 # dataset: September sea-ice extent 1979-2021
 # https://climate.nasa.gov/vital-signs/arctic-sea-ice/
@@ -15,7 +15,7 @@ def line(t, m, b):
 
 
 # STRAIGHT-LINE FIT
-popt, _ = curve_fit(line, year, extent)
+popt, _ = sco.curve_fit(line, year, extent)
 m = popt[0]
 b = popt[1]
 
