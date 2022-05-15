@@ -98,7 +98,7 @@ def code2idx(targetcode):
     this function returns the corresponding row index in latlong.csv
 
     Examples:   code2idx(2) returns 0 (USA)
-                code2idx(20) returns 21 (CAN)
+                code2idx(20) returns 1 (CAN)
                 code2idx(900) returns 193 (AUL)
     """
 
